@@ -1,0 +1,23 @@
+/* Estilo para la sección de Works */
+.works-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .works-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Contenedor para las tarjetas de Works */
+  .works-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Siempre dos columnas */
+    gap: 20px;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    max-width: 800px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor en la página */
+  }
+  

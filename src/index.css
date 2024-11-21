@@ -17,9 +17,8 @@ body {
 
 /* Contenedor general que aplicará los márgenes laterales */
 .container {
-  max-width: 1200px; /* Cambia el ancho máximo según prefieras */
+  max-width: 700px; /* Cambia el ancho máximo según prefieras */
   margin: 0 auto;
-  padding: 0 80px; /* Ajusta este valor para cambiar el margen */
   background-color: #ffffff; /* Color de fondo opcional */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }
