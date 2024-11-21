@@ -1,5 +1,8 @@
 /* styles.css */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
 /* Reseteo básico para tener una base limpia */
 * {
   margin: 0;
@@ -9,7 +12,7 @@
 
 /* Aplica un margen pronunciado a los lados */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Inter, sans-serif;
   background-color: #f5f5f5; /* Color de fondo opcional */
   margin: 0;
   padding: 0;
@@ -19,6 +22,4 @@ body {
 .container {
   max-width: 700px; /* Cambia el ancho máximo según prefieras */
   margin: 0 auto;
-  background-color: #ffffff; /* Color de fondo opcional */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra opcional */
 }

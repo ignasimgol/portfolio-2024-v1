@@ -12,26 +12,29 @@ const Home = () => {
       <section className="works-section">
         <h2>Works</h2>
         <div className="works-cards-container">
-          
           <Card 
-            imageUrl="https://via.placeholder.com/300" 
+            imageUrl="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" 
             title="📚 ballbylon" 
             subtitle="Descripción del trabajo 1"
+            linkUrl="/ballbylon"
           />
           <Card 
-            imageUrl="https://via.placeholder.com/300" 
-            title="Work 2" 
-            subtitle="Descripción del trabajo 2"
+            imageUrl="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" 
+            title="📷 Photo Portfolio" 
+            subtitle="Three.js based photo portfolio"
+            linkUrl="/foto-portfolio"
           />
           <Card 
-            imageUrl="https://via.placeholder.com/300" 
+            imageUrl="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" 
             title="Work 3" 
             subtitle="Descripción del trabajo 3"
+            linkUrl="/ballbylon"
           />
           <Card 
-            imageUrl="https://via.placeholder.com/300" 
+            imageUrl="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" 
             title="Work 4" 
             subtitle="Descripción del trabajo 4"
+            linkUrl="/ballbylon"
           />
         </div>
       </section>
