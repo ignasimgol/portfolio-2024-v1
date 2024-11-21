@@ -1,14 +1,30 @@
-import { useState } from 'react'
-import './App.css'
+// App.jsx
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import AboutMe from './pages/AboutMe';
+import './index.css'; // Importa el archivo de estilos
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div>
-      <h1>Iggy Dev - Works</h1>
-    </div>
-  )
-}
+    <Router>
+      <div className="app">
+        {/* Barra de navegación simple */}
+        <nav className="navbar">
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+          </ul>
+        </nav>
 
-export default App
+        {/* Configuración de las rutas */}
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutMe />} />
+        </Routes>
+      </div>
+    </Router>
+  );
+};
+
+export default App;
