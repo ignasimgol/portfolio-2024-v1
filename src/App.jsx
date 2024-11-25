@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Ballbylon from './pages/Ballbylon';
 import PhotoPortfolio from './pages/PhotoPortfolio';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './index.css'; // Importa el archivo de estilos
 
 const App = () => {
@@ -22,8 +23,13 @@ const App = () => {
           <Route path="/ballbylon" element={<Ballbylon/>} />
           <Route path="/foto-portfolio" element={<PhotoPortfolio/>} />
         </Routes>
+
+        <Footer />
+        
       </div>
+
     </Router>
+    
   );
 };
 
