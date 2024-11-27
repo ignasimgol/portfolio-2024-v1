@@ -4,7 +4,10 @@
 .navbar {
     padding: 15px 0;
     width: 100%; /* Asegura que ocupe el ancho completo */
-  }
+    position: sticky;
+    top: 0;
+    background-color: #f5f5f5d3;
+}
   
   /* Contenedor interno que respeta los márgenes laterales */
   .navbar-container {
@@ -29,7 +32,7 @@
   .navbar a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     transition: color 0.3s;
   }

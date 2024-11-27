@@ -26,7 +26,7 @@
 
 /* Título en negrita */
 .card-title {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin: 0 0 8px 0;
   color: #333;
@@ -34,7 +34,7 @@
 
 /* Subtítulo debajo del título */
 .card-subtitle {
-  font-size: 14px;
+  font-size: 13px;
   color: #666;
   margin: 0;
 }

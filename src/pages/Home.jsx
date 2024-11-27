@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from '../components/Card'; 
 import './css/Home.css';
+import Three from '../components/Three';
 
 const Home = () => {
   return (
     <div className="container">
-      <h1>Título de la página</h1>
-      <p>Este es el contenido de tu página con márgenes pronunciados a los lados.</p>
+      <img src="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" alt="Foto de la página" className="home-image" width="700px" />
       
       {/* Apartado de Works */}
       <section className="works-section">
