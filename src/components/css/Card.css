@@ -6,7 +6,7 @@
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  max-width: 250px; /* Tamaño máximo para la tarjeta */
+  max-width: 350px; /* Tamaño máximo para la tarjeta */
   text-decoration: none;
 }
   

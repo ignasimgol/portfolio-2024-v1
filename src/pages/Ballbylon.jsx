@@ -1,21 +1,29 @@
 import React from 'react';
+import './css/Ballbylon.css';
 
 const Ballbylon = () => {
   return (
     <div className="container">
-      <h1>Título de la página</h1>
-      <p>Este es el contenido de tu página con márgenes pronunciados a los lados.</p>
-      
-      {/* Contenedor para el contenido del artículo */}
-      <section className="article-container">
-        <h2>Artículo</h2>
-        <p>Este es el contenido del artículo.</p>
-        <p>Este es el contenido del artículo.</p>
-        <p>Este es el contenido del artículo.</p>
-        <p>Este es el contenido del artículo.</p>
-        <p>Este es el contenido del artículo.</p>
-        <p>Este es el contenido del artículo.</p>
+
+      <section className='article-container-pres'>
+        <h1>ballbylon</h1>
+        <p>El 18/11/2024 publiqué la página web <a href="http://ballbylon.com" target='_blank'>ballbylon</a> con la idea de ser una biblioteca de contenido sobre baloncesto.</p>
+        <div className="images-ballbylon">
+          <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
+          <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
+        </div>
       </section>
+      
+      <section className="article-container-1">
+        <h2>Stack</h2>
+
+      </section>
+
+      <section className="article-container-2">
+        <h2>Desarrollo</h2>
+
+      </section>
+
     </div>
     );
 };

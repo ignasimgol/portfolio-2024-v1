@@ -2,6 +2,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/Home';
+import Three from './components/Three';
 import AboutMe from './pages/AboutMe';
 import Contact from './pages/Contact';
 import Ballbylon from './pages/Ballbylon';
@@ -16,6 +17,7 @@ const App = () => {
       <div className="app">
        
       <Navbar />
+      <Three />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<AboutMe />} />

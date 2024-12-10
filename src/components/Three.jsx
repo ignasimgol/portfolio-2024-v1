@@ -6,8 +6,8 @@ import * as THREE from "three";
 
 // Componente principal de la escena
 function BasketballScene() {
-  const { scene } = useGLTF("/assets/basketbal-ball.glb");
-  const bakedTexture = useTexture("/assets/baked.jpg");
+  const { scene } = useGLTF("/assets/basketball-ball.glb");
+  const bakedTexture = useTexture("/assets/baked2.jpg");
 
   // Configuración de textura
   bakedTexture.flipY = false;
