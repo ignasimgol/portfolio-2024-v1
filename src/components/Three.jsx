@@ -25,35 +25,24 @@ function BasketballScene() {
 
 export default function ThreeCanvas() {
   return (
-    <Canvas camera={{ position: [2, 3, 6], fov: 50 }}>
-      {/* Ambient light for general illumination */}
-      <ambientLight intensity={0.5} />
+    <div className="canvas-container">
+      <Canvas
+        camera={{ position: [2, 3, 6], fov: 75 }}
+        style={{
+          width: '640px',
+          height: '640px',
+          margin: '0 auto',
+        }}
+      >
+        {/* Luces y controles dentro del Canvas */}
+        <ambientLight intensity={0.5} />
+        <directionalLight position={[5, 10, 5]} intensity={0.7} castShadow />
+        <pointLight position={[0, 5, 0]} intensity={1.0} color="white" />
+        <spotLight position={[2, 5, 3]} angle={0.3} intensity={1.2} castShadow />
 
-      {/* Directional light simulating sunlight */}
-      <directionalLight 
-        position={[5, 10, 5]} 
-        intensity={0.7} 
-        castShadow 
-      />
-      
-      {/* Point light for focused illumination */}
-      <pointLight 
-        position={[0, 5, 0]} 
-        intensity={1.0} 
-        color="white" 
-      />
-      
-      {/* SpotLight for dramatic focused lighting */}
-      <spotLight 
-        position={[2, 5, 3]} 
-        angle={0.3} 
-        intensity={1.2} 
-        castShadow 
-      />
-
-      <OrbitControls enableDamping />
-      <BasketballScene />
-    </Canvas>
+        <OrbitControls enableDamping />
+        <BasketballScene />
+      </Canvas>
+    </div>
   );
 }
-

@@ -1,5 +1,6 @@
-canvas {
-    width: 640px;
-    height: 640px; /* Hace que el canvas ocupe toda la altura de la ventana */
-    display: block; /* Elimina márgenes no deseados */
-  }
+.canvas-container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  height: 100vh; /* Hace que ocupe toda la ventana */
+}
