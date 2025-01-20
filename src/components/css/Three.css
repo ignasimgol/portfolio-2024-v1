@@ -1,6 +1,28 @@
 .canvas-container {
   display: flex;
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
-  height: 100vh; /* Hace que ocupe toda la ventana */
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.responsive-canvas {
+  width: 100%; /* Adapta el canvas a todo el ancho del contenedor */
+  height: auto; /* Mantiene la proporción automáticamente */
+  aspect-ratio: 16 / 9; /* Proporción para pantallas grandes */
+}
+
+@media (max-width: 768px) {
+  .responsive-canvas {
+    aspect-ratio: 4 / 3; /* Cambia la proporción para pantallas de tabletas */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-canvas {
+    aspect-ratio: 3 / 4; /* Cambia la proporción para pantallas de móviles */
+  }
 }

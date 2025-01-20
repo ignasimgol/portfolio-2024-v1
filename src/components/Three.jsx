@@ -25,12 +25,12 @@ function BasketballScene() {
 
 export default function ThreeCanvas() {
   return (
-    <div className="canvas-container">
+    <div className="resposnive-canvas">
       <Canvas
         camera={{ position: [2, 3, 6], fov: 75 }}
         style={{
-          width: '640px',
-          height: '640px',
+          width: '50%',
+          aspectRatio: '4/3',
           margin: '0 auto',
         }}
       >
@@ -40,7 +40,12 @@ export default function ThreeCanvas() {
         <pointLight position={[0, 5, 0]} intensity={1.0} color="white" />
         <spotLight position={[2, 5, 3]} angle={0.3} intensity={1.2} castShadow />
 
-        <OrbitControls enableDamping />
+        <OrbitControls
+          enableDamping
+          maxPolarAngle={Math.PI / 3} // Restringe el movimiento hasta 60 grados hacia abajo
+          minPolarAngle={Math.PI / 6} // Restringe el movimiento hasta 30 grados hacia arriba
+// Restringe el movimiento horizontal hasta 45 grados hacia la izquierda
+        />
         <BasketballScene />
       </Canvas>
     </div>
