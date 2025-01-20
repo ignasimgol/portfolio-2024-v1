@@ -4,8 +4,8 @@ import { OrbitControls, useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
 function BasketballScene() {
-  const { scene } = useGLTF("/assets/mini-room-final.glb");
-  const bakedTexture = useTexture("/assets/baked-3.jpg");
+  const { scene } = useGLTF("/assets/mini-room-77.glb");
+  const bakedTexture = useTexture("/assets/baked77.jpg");
 
   bakedTexture.flipY = false;
   bakedTexture.encoding = THREE.sRGBEncoding;

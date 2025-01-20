@@ -4,8 +4,23 @@ import React from 'react';
 const Contact = () => {
   return (
     <div className="container">
-      <h1>Título de la página</h1>
-      <p>Este es el contenido de tu página con márgenes pronunciados a los lados.</p>
+      <h1>Contacto</h1>
+      <div className='social-contact'>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/username" target="_blank" rel="noreferrer">
+              <img src="/assets/linkedin.png" alt="LinkedIn" />
+            </a>
+          </li>
+      
+            <li>
+           <a href="https://twitter.com/username" target="_blank" rel="noreferrer">
+            <img src="/assets/twitter.png" alt="Twitter" />
+          </a>
+        </li>
+        </ul>  
+      </div>
+      
     </div>
   );
 };
