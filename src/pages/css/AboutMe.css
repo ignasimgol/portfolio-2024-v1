@@ -1,0 +1,38 @@
+
+.card-profile {
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+.card-top img {
+    width: 90px;
+    border-radius: 50px;
+}
+
+.list-xxss ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.list-xxss a {
+    color: black;
+}
+
+.list-xxss a:hover  {
+    color: green;
+}
+
+.card-text p {
+    margin-top: 1rem;
+}

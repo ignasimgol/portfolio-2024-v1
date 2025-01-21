@@ -23,6 +23,6 @@
 
 @media (max-width: 480px) {
   .responsive-canvas {
-    aspect-ratio: 3 / 4; /* Cambia la proporción para pantallas de móviles */
+    aspect-ratio: 2 / 3; /* Cambia la proporción para pantallas de móviles */
   }
 }
