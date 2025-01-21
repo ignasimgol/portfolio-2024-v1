@@ -4,8 +4,8 @@ import { OrbitControls, useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
 function BasketballScene() {
-  const { scene } = useGLTF("/assets/mini-room-77.glb");
-  const bakedTexture = useTexture("/assets/baked77.jpg");
+  const { scene } = useGLTF("/assets/mini-room-8.glb");
+  const bakedTexture = useTexture("/assets/baked88.png");
 
   bakedTexture.flipY = false;
   bakedTexture.encoding = THREE.sRGBEncoding;
@@ -44,7 +44,7 @@ export default function ThreeCanvas() {
           enableDamping
           maxPolarAngle={Math.PI / 3} // Restringe el movimiento hasta 60 grados hacia abajo
           minPolarAngle={Math.PI / 6} // Restringe el movimiento hasta 30 grados hacia arriba
-// Restringe el movimiento horizontal hasta 45 grados hacia la izquierda
+
         />
         <BasketballScene />
       </Canvas>
