@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Canvas } from "@react-three/fiber";
+import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
@@ -19,6 +19,10 @@ function BasketballScene() {
       }
     });
   }, [scene, bakedTexture]);
+
+  useFrame(() => {
+    scene.rotation.y += 0.002;
+  });
 
   return <primitive object={scene} />;
 }
