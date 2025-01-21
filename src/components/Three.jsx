@@ -27,7 +27,7 @@ export default function ThreeCanvas() {
   return (
     <div className="resposnive-canvas">
       <Canvas
-        camera={{ position: [2, 3, 6], fov: 75 }}
+        camera={{ position: [2, 3, 15], fov: 70 }}
         style={{
           width: '50%',
           aspectRatio: '4/3',
@@ -44,7 +44,7 @@ export default function ThreeCanvas() {
           enableDamping
           maxPolarAngle={Math.PI / 3} // Restringe el movimiento hasta 60 grados hacia abajo
           minPolarAngle={Math.PI / 6} // Restringe el movimiento hasta 30 grados hacia arriba
-
+          enableZoom={false}
         />
         <BasketballScene />
       </Canvas>
