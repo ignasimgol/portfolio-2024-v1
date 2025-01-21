@@ -16,17 +16,17 @@ const AboutMe = () => {
             <ul>
               <li>
                 <a href="https://github.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-                  <FaGithub size={24} /> 
+                  <FaGithub size={18} /> 
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener noreferrer">
-                  <FaTwitter size={24} />
+                  <FaTwitter size={18} />
                 </a>
               </li>
               <li>
                 <a href="https://tu-sitio-web.com" target="_blank" rel="noopener noreferrer">
-                  <FaGlobe size={24} />
+                  <FaGlobe size={18} />
                 </a>
               </li>
               <li>

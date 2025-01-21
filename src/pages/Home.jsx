@@ -19,20 +19,20 @@ const Home = () => {
           <Card 
             imageUrl="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" 
             title="📷 Photo Portfolio" 
-            subtitle="Three.js based photo portfolio"
+            subtitle="Three.js experiment photo portfolio"
             linkUrl="/foto-portfolio"
           />
           <Card 
             imageUrl="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" 
-            title="Work 3" 
-            subtitle="Descripción del trabajo 3"
+            title="📼 Photo Portfolio" 
+            subtitle="Simple and clean photographer website"
             linkUrl="/ballbylon"
           />
           <Card 
             imageUrl="https://utfs.io/f/DM7CcnrlhW9ZxnEmba5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" 
-            title="Work 4" 
-            subtitle="Descripción del trabajo 4"
-            linkUrl="/ballbylon"
+            title="💻 Old Portfolio" 
+            subtitle="My first portfolio"
+            linkUrl="https://ignasi-portfolio.vercel.app/lbylon"
           />
         </div>
       </section>

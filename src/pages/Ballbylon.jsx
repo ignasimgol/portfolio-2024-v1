@@ -1,15 +1,21 @@
 import React from 'react';
 import './css/Ballbylon.css';
-import { FaReact, FaCloudflare } from 'react-icons/fa';
+import { FaReact, FaCloudflare, FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { SiSupabase } from 'react-icons/si';
-import { IoLibraryOutline, IoSearchOutline, IoHeartOutline, IoChatbubbleEllipsesOutline } from 'react-icons/io5';
+import { IoLibraryOutline, IoSearchOutline, IoHeartOutline } from 'react-icons/io5';
 
 const Ballbylon = () => {
   return (
     <div className="container">
       <section className='article-container-pres'>
-        <h1>ballbylon</h1>
-        <p>El 18/11/2024 publiqué la página web <a href="http://ballbylon.com" target='_blank' rel="noopener noreferrer">ballbylon</a> con la idea de ser una biblioteca de contenido sobre baloncesto.</p>
+        <div className='article-header'>
+          <h1>ballbylon</h1>
+          <a href="https://ballbylon.com" target="_blank"> 
+            <FaRegArrowAltCircleRight size={20}/>
+          </a>
+        </div>
+        
+        <p>El 18/11/2024 publiqué la página web <strong>ballbylon</strong> con la idea de ser una biblioteca de contenido sobre baloncesto.</p>
         <div className="images-ballbylon">
           <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
           <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
