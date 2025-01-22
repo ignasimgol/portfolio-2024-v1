@@ -6,3 +6,7 @@
     font-size: 0.8rem;
     margin-top: 2rem;
 }
+
+.dark-mode .footer-content {
+    color: #fff;
+  }

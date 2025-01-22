@@ -1,9 +1,9 @@
-// components/Navbar.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaMoon, FaSun } from 'react-icons/fa';
 import './css/Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({ isDarkMode, toggleDarkMode }) => {
   return (
     <nav className="navbar">
       <div className="navbar-container">
@@ -12,6 +12,9 @@ const Navbar = () => {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/contact">Contact</Link></li>
         </ul>
+        <button className="dark-mode-toggle" onClick={toggleDarkMode} aria-label="Toggle dark mode">
+          {isDarkMode ? <FaSun /> : <FaMoon />}
+        </button>
       </div>
     </nav>
   );

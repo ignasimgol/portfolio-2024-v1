@@ -23,3 +23,8 @@ body {
   max-width: 700px; /* Cambia el ancho máximo según prefieras */
   margin: 0 auto;
 }
+
+.dark-mode body {
+  background-color: #1f1d1d;
+  color: #fff;
+}

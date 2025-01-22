@@ -11,7 +11,7 @@ const Ballbylon = () => {
         <div className='article-header'>
           <h1>ballbylon</h1>
           <a href="https://ballbylon.com" target="_blank"> 
-            <FaRegArrowAltCircleRight size={20}/>
+            <FaRegArrowAltCircleRight className="feature-icon" size={20}/>
           </a>
         </div>
         

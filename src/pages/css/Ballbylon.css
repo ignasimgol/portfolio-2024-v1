@@ -3,117 +3,130 @@
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-  }
+}
 
 .article-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .article-header a {
-    color: black;
-  }
+.article-header a {
+  color: black;
+}
   
-  .article-header a:hover {
-    color: green;
-  }
+.article-header a:hover {
+  color: green;
+}
 
-  h1, h2 {
-    color: #222;
-    margin-bottom: 1rem;
-  }
+h1, h2 {
+  color: #222;
+  margin-bottom: 1rem;
+}
   
-  a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  .article-container-pres, .article-container-1, .article-container-2, .article-container-features, .article-container-future {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
+a {
+  color: #007bff;
+  text-decoration: none;
+}
 
-  .article-container-2 p {
-    margin-bottom: 1rem;
-  }
-  
+a:hover {
+  text-decoration: underline;
+}
+
+.article-container-pres, .article-container-1, .article-container-2, .article-container-features, .article-container-future {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.article-container-2 p {
+  margin-bottom: 1rem;
+}
+
+.images-ballbylon {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.images-ballbylon img {
+  width: 100%;
+  max-width: 290px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.stack-list ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.stack-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.stack-icon {
+  margin-right: 0.5rem;
+  color: #61dafb; /* Azul React */
+}
+
+.stack-list li:nth-child(2) .stack-icon {
+  color: #3fcf8e; /* Verde Supabase */
+}
+
+.stack-list li:nth-child(3) .stack-icon {
+  color: #f38020; /* Naranja Cloudflare */
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.feature-icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+.dark-mode .feature-icon {
+  color: #fff;
+}
+
+.article-container-features ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.article-container-features li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.dark-mode .article-container-pres, .article-container-1, .article-container-2, .article-container-features, .article-container-future {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode h1, h2 {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
   .images-ballbylon {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
   }
-  
-  .images-ballbylon img {
-    width: 100%;
-    max-width: 290px;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .stack-list ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .stack-list li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-  }
-  
-  .stack-icon {
-    margin-right: 0.5rem;
-    color: #61dafb; /* Azul React */
-  }
-  
-  .stack-list li:nth-child(2) .stack-icon {
-    color: #3fcf8e; /* Verde Supabase */
-  }
-  
-  .stack-list li:nth-child(3) .stack-icon {
-    color: #f38020; /* Naranja Cloudflare */
-  }
-  
-  a {
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  .feature-icon {
-    margin-right: 0.5rem;
-    font-size: 1.2rem;
-    color: #000000;
-  }
-  
-  .article-container-features ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .article-container-features li {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-  
-  @media (max-width: 768px) {
-    .images-ballbylon {
-      flex-direction: column;
-    }
-  }
+}

@@ -46,10 +46,20 @@
   object-fit: cover; /* Ajusta cómo la imagen se redimensiona para llenar el contenedor */
 }
 
-
-
 .card:hover {
   transform: translateY(-3px);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
+.dark-mode .card {
+  background-color: #1f1d1d;
+  color: #fff;
+}
+
+.dark-mode .card-subtitle {
+  color: #fff;
+}
+
+.dark-mode .card-title {
+  color: #fff;
+}
