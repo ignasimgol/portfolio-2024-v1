@@ -36,3 +36,16 @@
 .card-text p {
     margin-top: 1rem;
 }
+
+.dark-mode .card-profile {
+    background: #252424;
+    color: #fff;
+}
+
+.dark-mode .list-xxss a {
+    color: #fff;
+}
+
+.dark-mode .list-xxss a:hover {
+    color: green;
+}

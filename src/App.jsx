@@ -15,7 +15,7 @@ const App = () => {
   // Estado para el modo oscuro
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedMode = localStorage.getItem('dark-mode');
-    return savedMode ? JSON.parse(savedMode) : false;
+    return savedMode ? JSON.parse(savedMode) : true;
   });
 
   // Aplicar o quitar la clase .dark-mode en el <html> dependiendo del estado

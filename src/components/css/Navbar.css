@@ -59,7 +59,7 @@
   right: 20px;
   cursor: pointer;
   padding: 5px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   border: none;
   background-color: transparent;
 }
@@ -67,3 +67,4 @@
 .dark-mode .dark-mode-toggle {
   color: #fff;
 }
+
