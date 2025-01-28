@@ -42,7 +42,7 @@ const Ballbylon = () => {
       <section className="article-container-features">
         <h2>Funcionalidades</h2>
         <ul>
-          <li><IoLibraryOutline className="feature-icon" /> Base de datos de contenido organizado por temas, jugadores y entrenadores.</li>
+          <li><IoLibraryOutline className="feature-icon" /> Base de datos de contenido organizado por temas y creadores de contenido.</li>
           <li><IoSearchOutline className="feature-icon" /> Filtros para descubrir artículos, vídeos y podcasts.</li>
           <li><IoHeartOutline className="feature-icon" /> Listas personalizadas para que los usuarios guarden contenido.</li>
         </ul>
