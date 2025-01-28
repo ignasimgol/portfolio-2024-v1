@@ -61,6 +61,7 @@
     color: white;
     padding: 8px 12px;
     border-radius: 4px;
+    border: 2px solid green;
     font-size: 14px;
     opacity: 0.9;
     z-index: 1000;
