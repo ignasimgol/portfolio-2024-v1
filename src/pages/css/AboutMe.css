@@ -49,3 +49,51 @@
 .dark-mode .list-xxss a:hover {
     color: green;
 }
+
+/* Estilos para el mensaje de confirmación */
+/* Estilos para el mensaje de confirmación */
+.tooltip {
+    position: absolute;
+    top: 50%;
+    left: 100%; /* Coloca el mensaje a la derecha del ícono */
+    transform: translate(10px, -50%); /* Ajusta la posición */
+    background-color: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    opacity: 0.9;
+    z-index: 1000;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    animation: fadeInOut 2s ease-in-out;
+  }
+  
+  .tooltip {
+    position: fixed; /* Asegura que el mensaje se posicione con respecto a la ventana */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra el mensaje */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    z-index: 1000; /* Asegura que el mensaje esté por encima de otros elementos */
+    animation: fadeInOut 4s ease; /* Añade la animación de entrada y salida */
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
