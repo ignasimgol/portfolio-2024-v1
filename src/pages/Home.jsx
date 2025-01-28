@@ -13,7 +13,7 @@ const Home = () => {
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZlrfyUMHVBGdgrfMQsJvh6T85uayOKj9zFNYU" 
             title="📚 ballbylon" 
-            subtitle="Descripción del trabajo 1"
+            subtitle="La biblioteca del baloncesto"
             linkUrl="/ballbylon"
           />
           <Card 
