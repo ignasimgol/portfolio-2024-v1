@@ -4,7 +4,7 @@ import { FaReact, FaRegArrowAltCircleRight } from 'react-icons/fa';
 import { SiSupabase, SiBlender, SiThreedotjs } from 'react-icons/si';
 import { IoLibraryOutline, IoSearchOutline, IoHeartOutline } from 'react-icons/io5';
 
-const PhotoPortfolio = () => {
+const Mac = () => {
   return (
     <div className="container">
       <section className='article-container-pres'>
@@ -51,4 +51,4 @@ const PhotoPortfolio = () => {
   );
 };
 
-export default PhotoPortfolio
+export default Mac;

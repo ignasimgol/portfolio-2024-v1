@@ -35,6 +35,7 @@ a:hover {
 
 .article-container-pres, .article-container-1, .article-container-2, .article-container-features, .article-container-future {
   margin-bottom: 2rem;
+  color: #333;
   padding: 1.5rem;
   background: #fff;
   border-radius: 8px;
@@ -116,12 +117,12 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.dark-mode .article-container-pres, .article-container-1, .article-container-2, .article-container-features, .article-container-future {
-  background-color: #333;
+.dark-mode .article-container-1, .article-container-2, .article-container-features, .article-container-pres {
+  background: #252424;
   color: #fff;
 }
 
-.dark-mode h1, h2 {
+.dark-mode h2 {
   color: #fff;
 }
 

@@ -20,7 +20,7 @@ const Home = () => {
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zp86TpWSGjaghdlPLwH4AJiz8onT1WrB3bOfI" 
             title="💿 Mac Miller" 
             subtitle="GSAP & Three.js experiment"
-            linkUrl="/foto-portfolio"
+            linkUrl="/mac-miller"
           />
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZSvueATGO3uGKn8IF6U9LXNTsZWPt7rCcimfy" 

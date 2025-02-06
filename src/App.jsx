@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Three from './components/Three';
 import AboutMe from './pages/AboutMe';
 import Ballbylon from './pages/Ballbylon';
+import MacMiller from './pages/MacMiller';
 import PhotoPortfolio from './pages/PhotoPortfolio';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -40,6 +41,7 @@ const App = () => {
           <Route path="/about" element={<AboutMe />} />
           <Route path="/ballbylon" element={<Ballbylon/>} />
           <Route path="/foto-portfolio" element={<PhotoPortfolio/>} />
+          <Route path="/mac-miller" element={<MacMiller />} />
         </Routes>
 
         <Footer />
