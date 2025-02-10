@@ -102,6 +102,11 @@ a:hover {
   color: #000000;
 }
 
+.article-header a:hover .feature-icon {
+  color: #9db645;
+}
+
+
 .dark-mode .feature-icon {
   color: #fff;
 }
@@ -117,7 +122,10 @@ a:hover {
   margin-bottom: 1rem;
 }
 
-.dark-mode .article-container-1, .article-container-2, .article-container-features, .article-container-pres {
+.dark-mode .article-container-pres,
+.dark-mode .article-container-1,
+.dark-mode .article-container-2,
+.dark-mode .article-container-features {
   background: #252424;
   color: #fff;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Ballbylon.css';
-import { FaReact, FaRegArrowAltCircleRight } from 'react-icons/fa';
+import { FaReact } from 'react-icons/fa';
+import { TbWorld } from "react-icons/tb";
 import { SiSupabase, SiBlender, SiThreedotjs } from 'react-icons/si';
 import { IoLibraryOutline, IoSearchOutline, IoHeartOutline } from 'react-icons/io5';
 
@@ -11,7 +12,7 @@ const Mac = () => {
         <div className='article-header'>
           <h1>Mac Miller Tribute</h1>
           <a href="https://ballbylon.com" target="_blank"> 
-            <FaRegArrowAltCircleRight className="feature-icon" size={20}/>
+            <TbWorld className="feature-icon" size={20}/>
           </a>
         </div>
         

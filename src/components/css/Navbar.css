@@ -68,3 +68,8 @@
   color: #fff;
 }
 
+.dark-mode-toggle:hover {
+  color: #9db645; /* Cambio de color del ícono */
+  transform: scale(1.1); /* Efecto de aumento */
+}
+

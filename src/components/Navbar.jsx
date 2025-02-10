@@ -8,7 +8,7 @@ const Navbar = ({ isDarkMode, toggleDarkMode }) => {
     <nav className="navbar">
       <div className="navbar-container">
         <ul className="navbar-list">
-          <li><Link to="/">Home</Link></li>
+          <li><Link to="/">Works</Link></li>
           <li><Link to="/about">About Me</Link></li>
         </ul>
         <button className="dark-mode-toggle" onClick={toggleDarkMode} aria-label="Toggle dark mode">

@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Ballbylon.css';
-import { FaReact, FaCloudflare, FaRegArrowAltCircleRight } from 'react-icons/fa';
+import { FaReact, FaCloudflare } from 'react-icons/fa';
+import { TbWorld } from "react-icons/tb";
 import { SiSupabase } from 'react-icons/si';
 import { IoLibraryOutline, IoSearchOutline, IoHeartOutline } from 'react-icons/io5';
 
@@ -11,7 +12,7 @@ const Ballbylon = () => {
         <div className='article-header'>
           <h1>ballbylon</h1>
           <a href="https://ballbylon.com" target="_blank"> 
-            <FaRegArrowAltCircleRight className="feature-icon" size={20}/>
+            <TbWorld className="feature-icon" size={20}/>
           </a>
         </div>
         
