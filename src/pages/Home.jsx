@@ -1,12 +1,10 @@
-import React from 'react';
-import Card from '../components/Card'; 
+import React, { useState, useEffect } from 'react';
+import Card from '../components/Card';
 import './css/Home.css';
 
 const Home = () => {
   return (
     <div className="container">
-      
-      {/* Apartado de Works */}
       <section className="works-section">
         <h2>Works</h2>
         <div className="works-cards-container">
@@ -21,6 +19,12 @@ const Home = () => {
             title="💿 Mac Miller" 
             subtitle="GSAP & Three.js experiment"
             linkUrl="/mac-miller"
+          />
+          <Card 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zp86TpWSGjaghdlPLwH4AJiz8onT1WrB3bOfI" 
+            title="🌍 3D World" 
+            subtitle="GSAP & Three.js experiment"
+            linkUrl="/3d-world"
           />
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZSvueATGO3uGKn8IF6U9LXNTsZWPt7rCcimfy" 
@@ -40,8 +44,6 @@ const Home = () => {
             subtitle="My first portfolio"
             linkUrl="https://ignasi-portfolio.vercel.app/lbylon"
           />
-
-
         </div>
       </section>
     </div>
@@ -49,4 +51,3 @@ const Home = () => {
 };
 
 export default Home;
-

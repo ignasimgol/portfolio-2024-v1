@@ -37,15 +37,15 @@ const Ballbylon = () => {
       <section className="article-container-2">
         <h2>Desarrollo</h2>
         <p>El desarrollo de Ballbylon se centró en crear una experiencia de usuario rápida y accesible. Utilicé Supabase para manejar la autenticación de usuarios y la gestión de datos de manera segura. La integración con Cloudflare mejoró la velocidad de carga de la página y ofreció protección contra ataques DDoS.</p>
-        <p>Uno de los mayores retos fue implementar una función de búsqueda eficiente para filtrar contenido de la biblioteca. Esto se logró utilizando índices personalizados en la base de datos de Supabase.</p>
+        <p>Uno de los mayores retos fue implementar una función de búsqueda eficiente para filtrar contenido de la biblioteca.</p>
       </section>
 
       <section className="article-container-features">
         <h2>Funcionalidades</h2>
         <ul>
-          <li><IoLibraryOutline className="feature-icon" /> Base de datos de contenido organizado por temas y creadores de contenido.</li>
-          <li><IoSearchOutline className="feature-icon" /> Filtros para descubrir artículos, vídeos y podcasts.</li>
-          <li><IoHeartOutline className="feature-icon" /> Listas personalizadas para que los usuarios guarden contenido.</li>
+          <li>📚 Base de datos de contenido organizado por temas y creadores de contenido.</li>
+          <li>🔎 Filtros para descubrir artículos, vídeos y podcasts.</li>
+          <li>✅ Listas personalizadas para que los usuarios guarden contenido.</li>
         </ul>
       </section>
     </div>
