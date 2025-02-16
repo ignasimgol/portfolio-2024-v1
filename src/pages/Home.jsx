@@ -21,7 +21,7 @@ const Home = () => {
             linkUrl="/mac-miller"
           />
           <Card 
-            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zp86TpWSGjaghdlPLwH4AJiz8onT1WrB3bOfI" 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZS6FzRHKGO3uGKn8IF6U9LXNTsZWPt7rCcimf" 
             title="🌍 3D World" 
             subtitle="GSAP & Three.js experiment"
             linkUrl="/3d-world"
