@@ -2,8 +2,8 @@ import React from 'react';
 import './css/Ballbylon.css';
 import { FaReact } from 'react-icons/fa';
 import { TbWorld } from "react-icons/tb";
-import { SiSupabase, SiBlender, SiThreedotjs } from 'react-icons/si';
-import { IoLibraryOutline, IoSearchOutline, IoHeartOutline } from 'react-icons/io5';
+import { SiBlender, SiThreedotjs } from 'react-icons/si';
+
 
 const Mac = () => {
   return (
@@ -11,12 +11,12 @@ const Mac = () => {
       <section className='article-container-pres'>
         <div className='article-header'>
           <h1>Mac Miller Tribute</h1>
-          <a href="https://ballbylon.com" target="_blank"> 
+          <a href="https://mac-miller-eight.vercel.app/" target="_blank"> 
             <TbWorld className="feature-icon" size={20}/>
           </a>
         </div>
         
-        <p>El 2025 publiqué la página web <strong>Mac Miller Tribute</strong> con la idea de ser un proyecto para practicar, mejorar y enseñar a futuros clientes</p>
+        <p>In 2025, I launched the website <strong>Mac Miller Tribute</strong> as a project to practice, improve, and showcase my skills to future clients. The design of the webpage is mine.</p>
         <div className="images-ballbylon">
           <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
           <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
@@ -27,24 +27,23 @@ const Mac = () => {
         <h2>Stack</h2>
         <div className="stack-list">
           <ul>
-            <li><FaReact className="stack-icon" /> React</li>
-            <li><SiThreedotjs className="stack-icon" /> Three JS</li>
-            <li><SiBlender className="stack-icon" /> Blender</li>
+            <li><FaReact className="stack-icon" /> React - Front End</li>
+            <li><SiThreedotjs className="stack-icon" /> Three JS - Vinyls</li>
+            <li><SiBlender className="stack-icon" /> Blender- Vinyls</li>
           </ul>
         </div>
       </section>
 
       <section className="article-container-2">
-        <h2>Desarrollo</h2>
-        <p>El desarrollo de la página se centró en crear una experiencia de usuario rápida y accesible. Utilicé Supabase para manejar la autenticación de usuarios y la gestión de datos de manera segura. La integración con Cloudflare mejoró la velocidad de carga de la página y ofreció protección contra ataques DDoS.</p>
-        <p>Uno de los mayores retos fue implementar una función de búsqueda eficiente para filtrar contenido de la biblioteca. Esto se logró utilizando índices personalizados en la base de datos de Supabase.</p>
-      </section>
-
+        <h2>Development</h2>
+        <p>The development of Mac Miller Tribute focused on creating a visually engaging and immersive experience for fans. I used modern web technologies to ensure smooth performance and responsiveness across all devices.</p>
+        <p>One of the biggest challenges was integrating a seamless music player while maintaining optimal page load speed. Additionally, designing an intuitive and aesthetically pleasing layout to honor Mac Miller’s legacy was a key focus.</p>
+    </section>
       <section className="article-container-features">
-        <h2>Funcionalidades</h2>
+        <h2>Features</h2>
         <ul>
-          <li>🪄 Shaders</li>
-          <li>💿 Listas personalizadas para que los usuarios guarden contenido.</li>
+          <li>🪄 Activate and deactivate shaders that move with the mouse</li>
+          <li>💿 Responsive design</li>
         </ul>
       </section>
     </div>

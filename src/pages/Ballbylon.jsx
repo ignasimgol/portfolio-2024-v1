@@ -17,6 +17,7 @@ const Ballbylon = () => {
         </div>
         
         <p>On 11/18/2024, I launched the website <strong>ballbylon</strong> with the idea of being a basketball content library. ballbylon was born out of the need for a structured and easily accessible basketball content library. Many platforms provide scattered information, but I wanted to centralize high-quality articles, videos, and podcasts into a single, user-friendly platform.</p>
+        <p>It has been my first real project and it has helped me to learn and deal with a lot of problems I had never experienced before. It has made me grow and I'm happy to have achieved the goals I initially set.</p>
         <div className="images-ballbylon">
           <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
           <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
@@ -35,13 +36,13 @@ const Ballbylon = () => {
       </section>
 
       <section className="article-container-2">
-      <h2>Development</h2>
-        <p>The development of Ballbylon focused on creating a fast and accessible user experience. I used Supabase to handle user authentication and data management securely. Integration with Cloudflare improved page load speed and provided protection against DDoS attacks.</p>
+        <h2>Development</h2>
+        <p>The development of ballbylon focused on creating a fast and accessible user experience. I used Supabase to handle user authentication and data management securely. Integration with Cloudflare improved page load speed and provided protection against DDoS attacks.</p>
         <p>One of the biggest challenges was implementing an efficient search function to filter library content, as well as implementing the ability to create and save lists.</p>
       </section>
 
       <section className="article-container-features">
-        <h2>Functions</h2>
+        <h2>Features</h2>
         <ul>
           <li>📚 Database of content organized by topics and content creators.</li>
           <li>🔎 Filters to discover articles, videos, and podcasts.</li>
