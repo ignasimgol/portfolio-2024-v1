@@ -36,7 +36,7 @@ const ThreeDWorld = () => {
 
       <section className="article-container-2">
         <h2>Development</h2>
-        <p>This project is based on tutorial from <a href="https://www.youtube.com/@andrewwoan" target='_blank'>Andrew Woan</a></p>
+        <p>This project is based on tutorial from <a href="https://www.youtube.com/@andrewwoan" target='_blank' className='normal-link'>Andrew Woan</a></p>
       </section>
 
       <section className="article-container-features">

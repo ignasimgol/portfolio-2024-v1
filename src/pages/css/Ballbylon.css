@@ -140,11 +140,11 @@ a:hover {
   }
 }
 
-a {
+.normal-link {
   text-decoration: none;
   color: green
 }
 
-a:hover {
+.normal-link:hover {
   text-decoration: underline;
 }
