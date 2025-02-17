@@ -27,16 +27,16 @@ const Home = () => {
             linkUrl="/3d-world"
           />
           <Card 
-            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZSvueATGO3uGKn8IF6U9LXNTsZWPt7rCcimfy" 
-            title="📷 Photo Portfolio" 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZAjg7Wh0ud4iTAoKWD6Z2aBGy7gsqXVmrMHfC" 
+            title="📷 3D Photo Portfolio" 
             subtitle="Three.js experiment photo portfolio"
-            linkUrl="/foto-portfolio"
+            linkUrl="/three-foto-portfolio"
           />
           <Card 
-            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZAjg7Wh0ud4iTAoKWD6Z2aBGy7gsqXVmrMHfC" 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZSvueATGO3uGKn8IF6U9LXNTsZWPt7rCcimfy" 
             title="📼 Photo Portfolio" 
             subtitle="Simple and clean photographer website"
-            linkUrl="/ballbylon"
+            linkUrl="/foto-portfolio"
           />
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZZkerRMzVpI42HAsox3raXMSFvdTDYOfnc7BG" 

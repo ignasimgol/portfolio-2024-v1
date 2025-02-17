@@ -19,8 +19,8 @@ const Mac = () => {
         
         <p>In 2025, I launched the website <strong>Mac Miller Tribute</strong> as a project to practice, improve, and showcase my skills to future clients. The design of the webpage is mine.</p>
         <div className="images-ballbylon">
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZsXgobdRx3XZiABck94pfWJShwQVjM8m6T0F7" alt="Mac Miller media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZX2EVegNlr4FZL6Qwtmsdfy5eNnG2V0aMBucK" alt="Mac Miller media" />
         </div>
       </section>
 

@@ -9,7 +9,7 @@ const PhotoPortfolio = () => {
       <BackButton />
       <section className='article-container-pres'>
         <div className='article-header'>
-          <h1>Mac Miller Tribute</h1>
+          <h1>Photo Portfolio</h1>
           <a href="https://bymariadelrio.vercel.app/" target="_blank"> 
             <TbWorld className="feature-icon" size={20}/>
           </a>

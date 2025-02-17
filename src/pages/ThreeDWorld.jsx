@@ -18,8 +18,8 @@ const ThreeDWorld = () => {
         
         <p>This webpage in process was one of my dreams when I started in web development. To able to create an experience like this on the net with Three.js and Blender has been amazing.</p>
         <div className="images-ballbylon">
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZHsuXzKMOt69jEp5iJyP7QB2rLf3xSz0NeU4D" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZgEhh0t6nqPHkb9iUKhrN3uTwExRIey6szZ8L" alt="ballbylon media" />
         </div>
       </section>
 

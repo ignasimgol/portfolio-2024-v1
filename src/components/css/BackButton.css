@@ -17,3 +17,12 @@
 .back-icon {
     font-size: 20px;
 }
+
+.dark-mode .back-button {
+    color: white;
+    background-color: #1f1d1d;
+}
+
+.dark-mode .back-button:hover {
+    color: green;
+}
