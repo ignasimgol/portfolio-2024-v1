@@ -139,3 +139,12 @@ a:hover {
     flex-direction: column;
   }
 }
+
+a {
+  text-decoration: none;
+  color: green
+}
+
+a:hover {
+  text-decoration: underline;
+}

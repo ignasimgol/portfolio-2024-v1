@@ -3,11 +3,12 @@ import './css/Ballbylon.css';
 import { FaReact, FaCloudflare } from 'react-icons/fa';
 import { TbWorld } from "react-icons/tb";
 import { SiSupabase } from 'react-icons/si';
-import { IoLibraryOutline, IoSearchOutline, IoHeartOutline } from 'react-icons/io5';
+import BackButton from '../components/BackButton';
 
 const Ballbylon = () => {
   return (
     <div className="container">
+      <BackButton />
       <section className='article-container-pres'>
         <div className='article-header'>
           <h1>ballbylon</h1>

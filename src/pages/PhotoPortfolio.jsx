@@ -1,11 +1,12 @@
 import React from 'react';
 import './css/Ballbylon.css';
 import { TbWorld } from "react-icons/tb";
-
+import BackButton from '../components/BackButton';
 
 const PhotoPortfolio = () => {
   return (
     <div className="container">
+      <BackButton />
       <section className='article-container-pres'>
         <div className='article-header'>
           <h1>Mac Miller Tribute</h1>

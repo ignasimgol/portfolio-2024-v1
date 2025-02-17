@@ -3,11 +3,12 @@ import './css/Ballbylon.css';
 import { FaReact } from 'react-icons/fa';
 import { TbWorld } from "react-icons/tb";
 import { SiBlender, SiThreedotjs } from 'react-icons/si';
-
+import BackButton from '../components/BackButton';
 
 const Mac = () => {
   return (
     <div className="container">
+      <BackButton />
       <section className='article-container-pres'>
         <div className='article-header'>
           <h1>Mac Miller Tribute</h1>

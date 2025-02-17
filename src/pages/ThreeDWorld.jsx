@@ -2,10 +2,12 @@ import React from 'react';
 import './css/Ballbylon.css';
 import { TbWorld } from "react-icons/tb";
 import { SiBlender, SiThreedotjs } from 'react-icons/si';
+import BackButton from '../components/BackButton';
 
 const ThreeDWorld = () => {
   return (
     <div className="container">
+      <BackButton />
       <section className='article-container-pres'>
         <div className='article-header'>
           <h1>The 3d World</h1>
@@ -26,7 +28,7 @@ const ThreeDWorld = () => {
         <div className="stack-list">
           <ul>
             <li>💻 HTML, CSS and JS</li>
-            <li><SiThreedotjs className="stack-icon" /> Three JS - Vinyls</li>
+            <li><SiThreedotjs className="stack-icon" /> Three JS - Vinyls and Shaders</li>
             <li><SiBlender className="stack-icon" /> Blender- Vinyls</li>
           </ul>
         </div>
@@ -34,16 +36,15 @@ const ThreeDWorld = () => {
 
       <section className="article-container-2">
         <h2>Development</h2>
-        <p>El desarrollo de Ballbylon se centró en crear una experiencia de usuario rápida y accesible. Utilicé Supabase para manejar la autenticación de usuarios y la gestión de datos de manera segura. La integración con Cloudflare mejoró la velocidad de carga de la página y ofreció protección contra ataques DDoS.</p>
-        <p>Uno de los mayores retos fue implementar una función de búsqueda eficiente para filtrar contenido de la biblioteca.</p>
+        <p>This project is based on tutorial from <a href="https://www.youtube.com/@andrewwoan" target='_blank'>Andrew Woan</a></p>
       </section>
 
       <section className="article-container-features">
         <h2>Features</h2>
         <ul>
-          <li>📚 Base de datos de contenido organizado por temas y creadores de contenido.</li>
-          <li>🔎 Filtros para descubrir artículos, vídeos y podcasts.</li>
-          <li>✅ Listas personalizadas para que los usuarios guarden contenido.</li>
+          <li>📱 Controles para móvil incluidos</li>
+          <li>✅ Misiones por completar</li>
+          <li>🌘 Dark mode disponible.</li>
         </ul>
       </section>
     </div>
