@@ -34,7 +34,7 @@ const PhotoPortfolio = () => {
       <section className="article-container-2">
         <h2>Development</h2>
         <p>This portfolio was based in a YouTube tutorial. It really helped me to practice about the dark mode feature, which was the first time I was trying to implement.</p>
-        <p>I discovered to different ways to optimize videos and photos, to make the page still fast no matter how many materials were in it.</p>
+        <p>I discovered to different ways to optimize videos and photos, to make the page still fast no matter how many materials were in it. I created the Images Gallery from scratch too.</p>
       </section>
       <section className="article-container-features">
         <h2>Features</h2>

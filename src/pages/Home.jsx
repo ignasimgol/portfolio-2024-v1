@@ -39,10 +39,10 @@ const Home = () => {
             linkUrl="/foto-portfolio"
           />
           <Card 
-            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZZkerRMzVpI42HAsox3raXMSFvdTDYOfnc7BG" 
-            title="💻 My Old Portfolio" 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Z5BQcOnlXyYcgthWlK9fP5qniruVbOIsAGNDj" 
+            title="💻 Tant Com Puc" 
             subtitle="My first portfolio"
-            linkUrl="https://ignasi-portfolio.vercel.app/lbylon"
+            linkUrl="/tant-com-puc"
           />
         </div>
       </section>
