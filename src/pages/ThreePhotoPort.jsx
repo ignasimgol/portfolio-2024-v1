@@ -9,7 +9,7 @@ const ThreePhotoPort = () => {
       <BackButton />
       <section className='article-container-pres'>
         <div className='article-header'>
-          <h1>Photo Portfolio</h1>
+          <h1>3D Photo Portfolio</h1>
           <a href="https://photo-portfolio-3js.vercel.app/" target="_blank"> 
             <TbWorld className="feature-icon" size={20}/>
           </a>
@@ -17,8 +17,8 @@ const ThreePhotoPort = () => {
         
         <p>This a photo/video portfolio experiment with Three.js, based on a <a href="https://x.com/0xca0a?lang=ca">@0xca0a</a>  video I saw on Twitter.</p>
         <div className="images-ballbylon">
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zj9QcBXrVnyrCSgjcqJWdZufx87wUAlOXF4pk" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZxNXhmB5GhpvSgs5yaJmncdDLYZ2wQF6UiqNo" alt="ballbylon media" />
         </div>
       </section>
 
