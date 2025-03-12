@@ -17,8 +17,8 @@ const PhotoPortfolio = () => {
         
         <p>This was my first real project as a programmer. A portfolio for my girlfriend, who still uses it. Simple, clean and easy to use and update.</p>
         <div className="images-ballbylon">
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zk37yfrs5cpAJ8UsG0IKWxZtiXDYzb9yBlEMm" alt="ballbylon media" />
-          <img src="https://utfs.io/f/DM7CcnrlhW9Zpl334OSGjaghdlPLwH4AJiz8onT1WrB3bOfI" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zf85qeWuCvVy2Y6lfntbpoxuDAd3mIW7qXBGc" alt="ballbylon media" />
+          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZQPi0JlVeDCBVMG6LYgvc4QXSK53d7laJxTzO" alt="ballbylon media" />
         </div>
       </section>
 

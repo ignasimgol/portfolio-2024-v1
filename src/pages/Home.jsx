@@ -30,7 +30,7 @@ const Home = () => {
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZAjg7Wh0ud4iTAoKWD6Z2aBGy7gsqXVmrMHfC" 
             title="📷 3D Photo Portfolio" 
             subtitle="Three.js experiment photo portfolio"
-            linkUrl="/three-foto-portfolio"
+            linkUrl="/3d-photo-portfolio"
           />
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZSvueATGO3uGKn8IF6U9LXNTsZWPt7rCcimfy" 

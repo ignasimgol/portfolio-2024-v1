@@ -8,6 +8,7 @@ import MacMiller from './pages/MacMiller';
 import ThreeDWorld from './pages/ThreeDWorld';
 import PhotoPortfolio from './pages/PhotoPortfolio';
 import TantComPuc from './pages/TantComPuc';
+import ThreePhotoPort from './pages/ThreePhotoPort';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import LoadingScreen from './components/LoadingScreen';
@@ -87,6 +88,7 @@ const App = () => {
               <Route path="/mac-miller" element={<MacMiller />} />
               <Route path="/tant-com-puc" element={<TantComPuc />} />
               <Route path="/3d-world" element={<ThreeDWorld />} />
+              <Route path="/3d-photo-portfolio" element={ThreePhotoPort} />
             </Routes>
             <Footer />
           </>
