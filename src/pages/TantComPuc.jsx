@@ -29,21 +29,23 @@ const TantComPuc = () => {
         <div className="stack-list">
           <ul>
             <li><RiNextjsFill className="stack-icon" />React</li>
-            <li><RiTailwindCssFill className="stack-icon" />Capacitor JS</li>
+            <li>📱 Capacitor JS</li>
           </ul>
         </div>
       </section>
 
       <section className="article-container-2">
         <h2>Development</h2>
-        <p>This development was pretty easy to execute. I was trying to do a clean and effective design for helping players track and check their shooting practices</p>
-    </section>
+        <p>This development was relatively easy to implement. I aimed for a clean and efficient design to help players track and review their shooting practices.</p>
+        <p>The real challenge came when publishing the app to the App Store and Play Store—it was a steep learning curve, but incredibly rewarding.</p>
+        <p>Facing and managing all the different situations throughout the process has helped me grow significantly, both technically and personally.</p>
+      </section>
       <section className="article-container-features">
         <h2>Features</h2>
         <ul>
-          <li>Track shots by zones and series</li>
-          <li>Share results</li>
-          <li>Check your progress</li>
+          <li>🛠️ Track shots by zones and series</li>
+          <li>📥 Share results</li>
+          <li>📊 Check your progress</li>
           <li>📱 Available in iOS and Android</li>
         </ul>
       </section>
