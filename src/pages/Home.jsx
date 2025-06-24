@@ -14,6 +14,12 @@ const Home = () => {
             subtitle="The basketball library"
             linkUrl="/ballbylon"
           />
+           <Card 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Z5BQcOnlXyYcgthWlK9fP5qniruVbOIsAGNDj" 
+            title="📊 Bucketzz" 
+            subtitle="Basketball Mobile App"
+            linkUrl="/bucketzz"
+          />
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zp86TpWSGjaghdlPLwH4AJiz8onT1WrB3bOfI" 
             title="💿 Mac Miller" 
@@ -38,12 +44,7 @@ const Home = () => {
             subtitle="Simple and clean photographer website"
             linkUrl="/foto-portfolio"
           />
-          <Card 
-            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Z5BQcOnlXyYcgthWlK9fP5qniruVbOIsAGNDj" 
-            title="💻 Tant Com Puc" 
-            subtitle="My first portfolio"
-            linkUrl="/tant-com-puc"
-          />
+         
         </div>
       </section>
     </div>

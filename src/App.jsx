@@ -86,7 +86,7 @@ const App = () => {
               <Route path="/ballbylon" element={<Ballbylon/>} />
               <Route path="/foto-portfolio" element={<PhotoPortfolio/>} />
               <Route path="/mac-miller" element={<MacMiller />} />
-              <Route path="/tant-com-puc" element={<TantComPuc />} />
+              <Route path="/bucketzz" element={<TantComPuc />} />
               <Route path="/3d-world" element={<ThreeDWorld />} />
               <Route path="/3d-photo-portfolio" element={<ThreePhotoPort />} />
             </Routes>
