@@ -15,7 +15,7 @@ const Home = () => {
             linkUrl="/ballbylon"
           />
            <Card 
-            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Z5BQcOnlXyYcgthWlK9fP5qniruVbOIsAGNDj" 
+            imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZcuM1aNpIVJPvr8hDmW1HetyGF2bz7iaYLEsf" 
             title="📊 Bucketzz" 
             subtitle="Basketball Mobile App"
             linkUrl="/bucketzz"
