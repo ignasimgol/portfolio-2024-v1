@@ -20,6 +20,13 @@ const Home = () => {
             subtitle="Basketball Mobile App"
             linkUrl="/bucketzz"
           />
+
+          <Card 
+            imageUrl="https://ysf47kvqyz.ufs.sh/f/jOedvmGatFHGOVrKRlCQnHv2GZUtas6oVD1FNb4kjPxEhcyR" 
+            title="📊 Baskeroseno" 
+            subtitle="Basketball Scouting Agency"
+            linkUrl="/baskeroseno"
+          />
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9Zp86TpWSGjaghdlPLwH4AJiz8onT1WrB3bOfI" 
             title="💿 Mac Miller" 

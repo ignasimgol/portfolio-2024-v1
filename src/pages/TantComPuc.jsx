@@ -20,7 +20,7 @@ const TantComPuc = () => {
         <p>In 2025, I launched this app, <strong>Bucketzz</strong> to help players improve their shooting at basketball</p>
         <div className="images-ballbylon">
           <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZcuM1aNpIVJPvr8hDmW1HetyGF2bz7iaYLEsf" alt="Bucketzz media" />
-          <img src="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZnpeZzIq9SrU17ogNLBpt2iJYzds5RVIahkbP" alt="Bucketzz media" />
+          <img src="https://ysf47kvqyz.ufs.sh/f/jOedvmGatFHGjQ6WeZkGatFHGwXTCVuLfsJ9E2k5bzNY6eZh" alt="Bucketzz media" />
         </div>
       </section>
 

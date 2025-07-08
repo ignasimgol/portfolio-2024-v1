@@ -7,6 +7,7 @@ import Ballbylon from './pages/Ballbylon';
 import MacMiller from './pages/MacMiller';
 import ThreeDWorld from './pages/ThreeDWorld';
 import PhotoPortfolio from './pages/PhotoPortfolio';
+import Baskeroseno from './pages/Baskeroseno';
 import TantComPuc from './pages/TantComPuc';
 import ThreePhotoPort from './pages/ThreePhotoPort';
 import Navbar from './components/Navbar';
@@ -117,6 +118,7 @@ const App = () => {
               <Route path="/about" element={<AboutMe />} />
               <Route path="/ballbylon" element={<Ballbylon/>} />
               <Route path="/foto-portfolio" element={<PhotoPortfolio/>} />
+              <Route path="/baskeroseno" element={<Baskeroseno />} />
               <Route path="/mac-miller" element={<MacMiller />} />
               <Route path="/bucketzz" element={<TantComPuc />} />
               <Route path="/3d-world" element={<ThreeDWorld />} />
