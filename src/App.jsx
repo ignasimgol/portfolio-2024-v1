@@ -22,6 +22,8 @@ const App = () => {
 
   const [isLoading, setIsLoading] = useState(true);
   const [progress, setProgress] = useState(0);
+  const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [modelLoaded, setModelLoaded] = useState(false);
 
   useEffect(() => {
     // Start loading images immediately
@@ -46,17 +48,37 @@ const App = () => {
         setProgress(newProgress);
         
         if (loadedImages === totalImages) {
-          setTimeout(() => setIsLoading(false), 500);
+          setImagesLoaded(true);
         }
       };
       img.onerror = () => {
         loadedImages++;
         if (loadedImages === totalImages) {
-          setTimeout(() => setIsLoading(false), 500);
+          setImagesLoaded(true);
         }
       };
     });
   }, []);
+
+  // Verificar si todo está cargado
+  useEffect(() => {
+    if (imagesLoaded && modelLoaded) {
+      setTimeout(() => setIsLoading(false), 500);
+    }
+  }, [imagesLoaded, modelLoaded]);
+
+  // Añade este useEffect después de los otros
+  useEffect(() => {
+    // Timeout de seguridad: después de 10 segundos, avanza aunque no se haya cargado todo
+    const timeoutId = setTimeout(() => {
+      if (isLoading) {
+        console.log('Timeout de seguridad activado: avanzando aunque no se haya cargado todo');
+        setIsLoading(false);
+      }
+    }, 10000);
+    
+    return () => clearTimeout(timeoutId);
+  }, [isLoading]);
 
   // Aplicar o quitar la clase .dark-mode en el <html> dependiendo del estado
   useEffect(() => {
@@ -71,15 +93,25 @@ const App = () => {
   // Función para alternar el modo oscuro
   const toggleDarkMode = () => setIsDarkMode(!isDarkMode);
 
+  // Función para manejar la carga del modelo 3D
+  const handleModelLoad = () => {
+    setModelLoaded(true);
+  };
+
   return (
     <Router>
       <div className="app">
+        {/* Renderizamos el componente Three siempre, con visibilidad pero fuera de pantalla */}
+        <div style={{ position: 'absolute', left: '-9999px', top: '-9999px' }}>
+          <Three onLoad={handleModelLoad} />
+        </div>
+        
         {isLoading ? (
           <LoadingScreen progress={progress} />
         ) : (
           <>
             <Navbar isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode}/>
-            <Three />
+            <Three onLoad={() => {}} /> {/* Aquí ya no necesitamos el callback */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<AboutMe />} />

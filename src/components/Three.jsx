@@ -1,11 +1,14 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, useGLTF, useTexture } from "@react-three/drei";
 import * as THREE from "three";
 
-function BasketballScene() {
+function BasketballScene({ onLoad }) {
   const { scene } = useGLTF("/assets/mini-room-8.glb");
-  const bakedTexture = useTexture("/assets/baked88.png");
+  const bakedTexture = useTexture("/assets/baked88.png", () => {
+    // Callback cuando la textura está cargada
+    onLoad();
+  });
 
   bakedTexture.flipY = false;
   bakedTexture.encoding = THREE.sRGBEncoding;
@@ -27,15 +30,19 @@ function BasketballScene() {
   return <primitive object={scene} />;
 }
 
-export default function ThreeCanvas() {
+export default function ThreeCanvas({ onLoad }) {
   return (
-    <div className="resposnive-canvas">
+    <div className="responsive-canvas">
       <Canvas
         camera={{ position: [2, 3, 15], fov: 70 }}
         style={{
           width: '50%',
           aspectRatio: '4/3',
           margin: '0 auto',
+        }}
+        onCreated={() => {
+          // Este evento se dispara cuando el canvas está listo
+          // pero no necesariamente cuando todo está cargado
         }}
       >
         {/* Luces y controles dentro del Canvas */}
@@ -50,7 +57,7 @@ export default function ThreeCanvas() {
           minPolarAngle={Math.PI / 6} // Restringe el movimiento hasta 30 grados hacia arriba
           enableZoom={false}
         />
-        <BasketballScene />
+        <BasketballScene onLoad={onLoad} />
       </Canvas>
     </div>
   );

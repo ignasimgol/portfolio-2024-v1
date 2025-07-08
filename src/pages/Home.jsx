@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="container">
       <section className="works-section">
-        <h2>Works</h2>
+        <h2>Highlighted Works</h2>
         <div className="works-cards-container">
           <Card 
             imageUrl="https://yjfzriagdd.ufs.sh/f/DM7CcnrlhW9ZlrfyUMHVBGdgrfMQsJvh6T85uayOKj9zFNYU" 
